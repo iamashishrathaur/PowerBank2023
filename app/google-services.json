@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632358225987",
+    "project_id": "earning-application-999",
+    "storage_bucket": "earning-application-999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632358225987:android:335a7dd36ec7ef32842cf6",
+        "android_client_info": {
+          "package_name": "com.rathaur.earning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632358225987-8g8epvi8phofif9750pudku18g1v5hq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEWYawpYLX01Y2Y4hc-l2FhQtwAXD66Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632358225987-8g8epvi8phofif9750pudku18g1v5hq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

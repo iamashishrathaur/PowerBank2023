@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductFragment"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+  <RelativeLayout
+      android:layout_marginTop="15dp"
+      android:layout_marginStart="10dp"
+      android:background="@drawable/term_plan"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <TextView
+          android:paddingHorizontal="9dp"
+          android:paddingVertical="3dp"
+          android:textColor="@color/white"
+          android:text="Long term plan"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+  </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:overScrollMode="never"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

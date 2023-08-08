@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/withdrawal_all_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/app_color"
+        android:textSize="17sp"
+
+        android:fontFamily="@font/poppins_medium" />
+    <View
+        android:background="#D3D3D3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Withdrawal Collection Account"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/account_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <View
+        android:layout_marginHorizontal="10dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Withdrawal Amount"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/withdraw_amount"
+        android:fontFamily="@font/poppins"
+        android:inputType="number"
+        android:hint="Enter an amount"
+        android:layout_marginHorizontal="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Withdrawal Password"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/withdraw_password"
+        android:fontFamily="@font/poppins"
+        android:inputType="numberPassword"
+        android:hint="Enter withdrawal password"
+        android:layout_marginHorizontal="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="password" />
+    <TextView
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/withdraw1"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/withdraw2"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/withdraw3"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/withdraw4"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatButton
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/withdraw_cancel_button"
+            android:textColor="#F37A1D"
+            android:background="#FDE7D2"
+            android:text="Cancel"
+            android:textSize="15sp"
+            android:paddingHorizontal="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/withdraw_confirm_button"
+            android:background="#F37A1D"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="Withdraw"
+            android:paddingHorizontal="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

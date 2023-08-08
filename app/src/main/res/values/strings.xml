@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Earning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_account"><u>Create Account</u></string>
+
+    <string name="withdraw1">1. The refer withdrawal time is from 10:00:00 to 18:00:00</string>
+    <string name="withdraw2">2. The single withdrawal amount is between 300 and 100000</string>
+    <string name="withdraw3">3. 10% of the withdrawal amount will be charged as tax for each withdrawal</string>
+    <string name="withdraw4"> 4. In order to facilitate financial settlement, you can only apply for cash withdrawal 1 times a day</string>
+</resources>

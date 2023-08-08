@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankCard"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/term_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/poppins_medium"
+            android:paddingHorizontal="9dp"
+            android:paddingVertical="3dp"
+            android:textColor="@color/white"
+            android:text="Add account card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <TextView
+        android:text="Bank Name"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/bank_name"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:hint="Bank name"
+        android:layout_marginHorizontal="15dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+    <TextView
+        android:text="Account number"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/account_number"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:inputType="number"
+        android:hint="Account number"
+        android:layout_marginHorizontal="15dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+    <TextView
+        android:text="Cardholder name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/card_holder_name"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:hint="Cardholder name"
+        android:layout_marginHorizontal="15dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+    <TextView
+        android:text="IFSC"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/ifsc_code"
+        android:inputType="textCapCharacters"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:hint="IFSC "
+        android:layout_marginHorizontal="15dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:id="@+id/add_bank_card"
+        android:background="@drawable/button_buy"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Confirm submission"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+</LinearLayout>
